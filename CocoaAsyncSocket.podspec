@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'CocoaAsyncSocket'
-  s.version  = '7.6.5'
+  s.version  = '7.6.55'
   s.license  = { :type => 'public domain', :text => <<-LICENSE
 Public Domain License
 
@@ -31,6 +31,7 @@ Updated and maintained by Deusty LLC and the Apple development community.
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.8'
+  s.watchos.deployment_target = '2.0'
 
   s.ios.frameworks = 'CFNetwork', 'Security'
   s.tvos.frameworks = 'CFNetwork', 'Security'
